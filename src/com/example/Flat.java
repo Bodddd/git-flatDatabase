@@ -9,20 +9,10 @@ public class Flat {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name="id")
     private long id;
-
-    @Column(name="district")
     private String district;
-
-    @Column(name="address")
     private String address;
-
-    @Column(name="square")
     private double square;
-
-    @Column(name="rooms")
     private int countOfRooms;
-
-    @Column(name="price")
     private double price;
 
     public Flat() {
